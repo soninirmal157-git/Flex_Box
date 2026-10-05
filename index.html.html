@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .con{
+            border: 1px solid black;
+            height: 800px;
+        }
+        .header{
+            height: 20%;
+            border: 1px solid black;
+            background-color: aqua;
+        }
+
+        .center{
+            height: 60%;
+            background-color: rgb(221, 255, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .left{
+            height: 100%;
+            width: 28%;
+            border: 1px solid black;
+            background-color: blue;
+        }
+        .right{
+            background-color: rgb(255, 0, 0);
+            height: 100%;
+            width: 100%;
+            border: 1px solid black;
+        }
+        .top{
+            height: 50%;
+            background-color: bisque;
+            border: 1px solid black;
+        }
+        .bottom{
+            height: 50%;
+            background-color: brown;
+            display: flex;
+        }
+        .bottom1{
+            width: 50%;
+        }
+        .b1{
+            background-color: antiquewhite;
+            border: 1px solid black;
+        }
+        .b2{
+            background-color: aqua;
+            border: 1px solid black;
+        }
+        .footer{
+            height: 20%;
+            border: 1px solid black;
+            background-color: rgb(8, 80,0);
+        }
+    </style>
+</head>
+<body>
+    <h1align="center">Flex Box</h1>
+    <div class="con">
+        <div class="header"></div>
+        <div class="center">
+            <div class="left"></div>
+            <div class="right">
+                <div class="top"></div>
+                <div class="bottom">
+                    <div class="bottom1 b2"></div>
+                    <div class="bottom1 b2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
